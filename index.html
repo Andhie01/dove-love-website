@@ -16,8 +16,10 @@
     body {
       font-family: 'Poppins', sans-serif;
       line-height: 1.6;
-      background-color: #fff;
-      color: #333;
+      background-color: #ffffff;
+      color: #2c2c2c;
+       -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
     }
 
     header {
@@ -34,12 +36,12 @@
 }
 
 header .logo img {
-  height: 150px; /* Increased from 50px */
+  height: 120px; /* Increased from 50px */
   object-fit: contain;
 }
 
     header .menu {
-      font-size: 2.4rem;
+      font-size: 2rem;
       cursor: pointer;
       color: white;
       z-index: 1001;
@@ -97,15 +99,16 @@ header .logo img {
 }
 
     .hero h1 {
-      font-size: 3.2rem;
-      margin-bottom: 10px;
-      font-weight: 800;
+      font-size: 3rem;
+      margin-bottom: 0px;
+      font-weight: 600;
       text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
     }
 
     .hero p {
       font-size: 1.3rem;
       max-width: 600px;
+      font-weight: 300px;
       margin: auto;
       text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
     }
@@ -116,10 +119,10 @@ header .logo img {
     }
 
     section h2 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       color: #2c7a7b;
       margin-bottom: 20px;
-      font-weight: 600;
+      font-weight: 500;
       text-align: left;
       margin: 0 auto;
       max-width: 1050px;
@@ -130,6 +133,8 @@ header .logo img {
       margin: 0 auto;
       font-size: 1.1rem;
       line-height: 1.8;
+      font-weight: 300px;
+      color: #444;
     }
     
 #gallery {
@@ -226,23 +231,34 @@ header .logo img {
       text-align: center;
     }
 
-    .cta h3 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-      font-weight: 600;
-    }
+    .cta {
+  background: #2c7a7b;
+  color: #ffffff;
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
 
-    .cta button {
-      padding: 12px 25px;
-      background: white;
-      color: #2c7a7b;
-      border: none;
-      border-radius: 12px;
-      font-weight: bold;
-      cursor: pointer;
-      margin-top: 15px;
-      font-size: 1rem;
-    }
+.cta h3 {
+  font-size: 1.75rem;
+  margin-bottom: 12px;
+}
+
+.cta button {
+  padding: 12px 24px;
+  background: #ffffff;
+  color: #2c7a7b;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
   .go-up {
       position: fixed;
@@ -269,7 +285,7 @@ header .logo img {
       border-top: 1px solid #444;
       margin-top: 30px;
       font-size: 0.85rem;
-      color: #aaa;
+      color: #666;
     }
     .dropdown a {
   text-decoration: none;
@@ -313,35 +329,35 @@ header .logo img {
 </div>
 
   <section id="about">
-    <h2>Who We Are</h2>
+    <h2>Who we are</h2>
     <p>
-      Dove Love Charity Organization is a grassroots non-profit based in Uganda, committed to uplifting orphaned and vulnerable children. We believe every child deserves love, education, and the chance to build a brighter future. Initiated by Andrew Odoi alongside a colleague, out of a personal journey of pain and hope, we operate with deep community roots and a clear mission—to care, educate, and empower.
+      Dove Love Charity Organization is a grassroots non profit based in Uganda, committed to uplifting orphaned and vulnerable children. We believe every child deserves love, education, and the chance to build a brighter future. Initiated by Andrew alongside a colleague, out of a personal journey of pain and hope, we operate with deep community roots and a clear mission to care, educate, and empower.
     </p>
   </section>
 
   <section id="what" style="background-color: #f0f9f8;">
-    <h2>What We Do</h2>
+    <h2>What we do</h2>
     <p>
-      We care for over <strong>50 children</strong> at our sanctuary, and the number continues to grow. We provide shelter, basic education, and emotional support. Additionally, we've reached and helped over <strong>200 other children</strong> by providing school fees, clothes, shoes, and school materials like books and pencils. We've also supported over <strong>30 elderly</strong> people with food and care. Our mission is holistic—we nurture, teach, and uplift.
+      We care for over <strong>50 children</strong> at our sanctuary, and the number continues to grow. We provide shelter, basic education, and emotional support. Additionally, we've reached and helped over <strong>200 other children</strong> by providing school fees, clothes, shoes, and school materials like books and pencils. We've also supported over <strong>30 elderly</strong> people with food and care. Our mission is holistic we nurture, teach, and uplift.
     </p>
   </section>
 
   <section id="impact">
-    <h2>Our Impact</h2>
+    <h2>Our impact</h2>
     <p>
       Since our founding, Dove Love has brought light to  over <strong>300</strong> lives. We’ve enrolled <strong>dozens</strong> of children in school, provided thousands of meals, and created a space of love and belonging. Every action we take is made possible by compassionate hearts like yours.
     </p>
   </section>
 
   <section style="background-color: #f0f9f8;">
-    <h2>Be Part</h2>
+    <h2>Be part</h2>
     <p>
       Become part of the Dove Love family. You can support by donating, sponsoring a child, volunteering, or partnering with us to reach more communities. No act is too small to make a difference.
     </p>
   </section>
 <!-- Gallery Section -->
 <section id="gallery">
-  <h2>Our Gallery</h2>
+  <h2>Gallery</h2>
 <p class="gallery-note">Click on any image to view it in full size</p>
   <div class="collage-gallery">
     <img src="https://i.postimg.cc/2ybCkS1F/Screenshot-20250503-224348-Instagram.jpg" alt="Gallery image 1" class="collage-img img1">
@@ -406,7 +422,7 @@ header .logo img {
 
     <!-- Social Media -->
     <div style="flex: 1; min-width: 250px;">
-      <h3>Connect With Us</h3>
+      <h3>Connect with us</h3>
       <a href="https://www.facebook.com/profile.php?id=61575971335681" target="_blank" style="margin-right: 10px;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="30">
       </a>
@@ -421,7 +437,7 @@ header .logo img {
 
   <!-- Registration Info & Copyright -->
   <div style="margin-top: 30px; text-align: center; font-size: 0.9rem; color: #aaa;">
-    Registered Non-Profit Organization  in Uganda  Registration No: <strong>:80034798673897</strong><br>
+    Registered Non Profit Organization  in Uganda  Registration No: <strong>:80034798673897</strong><br>
     &copy; 2025 Dove Love Charity Organization. All rights reserved.
   </div>
 </footer>
